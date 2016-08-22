@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background"
+        android:padding="2dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Simple ImageSlide"
+        android:id="@+id/button"
+        android:textColor="#FFFFFF"
+        android:background="#f76f07" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background"
+        android:padding="2dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Custom Indicator 1"
+        android:textColor="#FFFFFF"
+        android:background="#04ab1d"
+        android:id="@+id/button2"/>
+</FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background"
+        android:padding="2dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Custom Indicator 2"
+        android:textColor="#FFFFFF"
+        android:background="#0603bc"
+        android:id="@+id/button3"/>
+</FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background"
+        android:padding="2dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Indicator"
+        android:textColor="#FFFFFF"
+        android:background="#d20909"
+        android:id="@+id/button4"/>
+</FrameLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView"
+    android:layout_marginTop="20dp"
+    android:text="Indicator size: 20dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:max="50"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page Animation"
+        android:layout_marginTop="20dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal"/>
+</FrameLayout>
+
+</LinearLayout>
+</ScrollView>
