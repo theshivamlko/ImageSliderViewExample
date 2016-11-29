@@ -60,6 +60,9 @@ Including In Your Project
 
 - **Gradle**  
   `compile 'com.shivam.library:imageslider:1.1@aar'`
+  
+  <a href="http://www.methodscount.com/?lib=com.shivam.library%3Aimageslider%3A1.1"><img src="https://img.shields.io/badge/Methods and size-core: 83 | deps: 8611 | 15 KB-e91e63.svg"/></a>
+
 
 Developed By
 ============
